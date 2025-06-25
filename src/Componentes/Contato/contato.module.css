@@ -1,0 +1,52 @@
+.rodape {
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #0F172A;
+    color: #f8fafc;
+  }
+  
+  .cont {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 150px; 
+    text-align: center;
+  }
+  
+  .bloco a {
+    text-decoration: none;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bloco img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .bloco p {
+    font-size: 15px;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+
+  .bloco a:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }

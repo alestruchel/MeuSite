@@ -1,0 +1,34 @@
+.habi{
+    background-color: #0F172A;
+    color: #f8fafc;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    border-bottom: 3px solid #1E293B;
+}
+
+.habi h1{
+    font-size: 30px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+/* MAX 768PX */
+
+@media(max-width: 768px){
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

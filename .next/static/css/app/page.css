@@ -1,0 +1,337 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Banner/banner.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.banner_banner__e__ee{
+    display: flex;
+    background-color: #0F172A ;
+    width: 100%;
+    height: 88vh;
+    color: #f8fafc;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #1E293B;
+}
+
+.banner_texto__wTXpn{
+    width: 600px;
+    font-size: 25px;
+}
+
+.banner_texto__wTXpn h3{
+    color: #515967;
+}
+
+.banner_botao__KW_v9{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner_bot__lUz9I{
+    border: 10px solid #1E293B;
+    border-radius: 10px;
+    background-color: #1E293B;
+    color: #f8fafc;
+    width: 150px;
+    cursor: pointer;
+}
+
+.banner_bot__lUz9I:hover{
+    background-color: #f8fafc;
+    color: #1E293B;
+    border: 10px solid #f8fafc;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+/* MAX WIDTH 580PX */
+
+@media(max-width: 580px){
+    .banner_banner__e__ee{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .banner_texto__wTXpn{
+        width: 80%;
+    }
+}
+
+/* MAX 360PX */
+
+@media(max-width: 360px){
+    .banner_texto__wTXpn{
+        width: 90%;
+        font-size: 16px;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Topo/topo.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.topo_topo__4cUv6{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #0F172A;
+    color: #F8FAFC;
+    align-items: center;
+    border-bottom: 4px solid #1E293B ;
+}
+
+.topo_nome__YssrJ{
+    font-size: 28px;
+}
+
+.topo_port__X2MI8{
+    font-size: 28px;
+}
+
+.topo_links__zjHE3{
+    padding: 8px 0px;
+}
+
+.topo_link__Jh8Kr{
+    text-decoration: none;
+    padding: 0px 5px;
+
+    color: #F8FAFC;
+}
+
+.topo_link__Jh8Kr:hover{
+    color: #515967;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+/* MAX 440PX */
+
+@media(max-width: 440px){
+    .topo_topo__4cUv6{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* MAX 240PX */
+
+@media(max-width: 240px){
+    .topo_links__zjHE3{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Sobre/sobre.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.sobre_sobre__88hyR{
+    background-color: #0F172A;
+    color: #f8fafc;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 3px solid #1E293B;
+}
+
+.sobre_texto__s88Cu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.sobre_texto__s88Cu h1{
+    font-size: 30px;
+}
+
+.sobre_texto__s88Cu p{
+    color: #515967;
+}
+
+/* MAX 768PX */
+
+@media (max-width: 768px){
+    .sobre_texto__s88Cu{
+        width: 80%;
+    }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Habilidades/habilidades.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.habilidades_habi__4P_77{
+    background-color: #0F172A;
+    color: #f8fafc;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    border-bottom: 3px solid #1E293B;
+}
+
+.habilidades_habi__4P_77 h1{
+    font-size: 30px;
+}
+
+.habilidades_img__Vf7wC{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.habilidades_logo__iEcUg{
+    width: 90px;
+    height: 90px;
+}
+
+/* MAX 768PX */
+
+@media(max-width: 768px){
+    .habilidades_img__Vf7wC{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Projetos/projetos.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.projetos_proj___pBOB {
+    background-color: #0F172A;
+    color: #f8fafc;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 4px solid #1E293B ;
+  }
+  
+  .projetos_proj___pBOB h1 {
+    font-size: 30px;
+  }
+  
+  .projetos_cards__odCUY {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .projetos_card__WhhrG {
+    border: 4px solid #1E293B;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .projetos_foto__7dbMk {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    display: block;
+  }
+  
+  .projetos_card__WhhrG:hover .projetos_foto__7dbMk {
+    transform: scale(1.05);
+    filter: brightness(70%);
+  }
+  
+  .projetos_botao__6vj9R {
+    background-color: #38BDF8;
+    color: #0F172A;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .projetos_botao__6vj9R:hover {
+    background-color: #0EA5E9;
+  }
+
+  /* MAX 768PX */
+
+  @media (max-width: 768px){
+    .projetos_cards__odCUY{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  /* MAX 440PX */
+
+  @media(max-width: 440px){
+    .projetos_foto__7dbMk{
+      width: 100%;
+    }
+  }
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/Componentes/Contato/contato.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.contato_rodape__vI0ds {
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #0F172A;
+    color: #f8fafc;
+  }
+  
+  .contato_cont__GNqEb {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contato_bloco__6R3S3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 150px; 
+    text-align: center;
+  }
+  
+  .contato_bloco__6R3S3 a {
+    text-decoration: none;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contato_bloco__6R3S3 img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .contato_bloco__6R3S3 p {
+    font-size: 15px;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+
+  .contato_bloco__6R3S3 a:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }

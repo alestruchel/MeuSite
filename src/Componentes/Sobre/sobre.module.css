@@ -1,0 +1,32 @@
+.sobre{
+    background-color: #0F172A;
+    color: #f8fafc;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 3px solid #1E293B;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.texto h1{
+    font-size: 30px;
+}
+
+.texto p{
+    color: #515967;
+}
+
+/* MAX 768PX */
+
+@media (max-width: 768px){
+    .texto{
+        width: 80%;
+    }
+}

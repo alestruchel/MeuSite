@@ -10,7 +10,7 @@ export default function Banner(){
                 <h3>Desenvolvedor Front-End</h3>
             </div>
             <div className={estilos.botao}>
-                <a href="/curriculo.pdf" download>
+                <a href="/curriculo_alestruchel.pdf" download>
                     <button className={estilos.bot}>
                         Download CV
                     </button>
